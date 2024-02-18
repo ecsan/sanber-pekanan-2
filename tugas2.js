@@ -35,7 +35,7 @@ let productBin = {
     "message": "success"
   };
   
-  // Fungsi untuk menjumlahkan quantity dari semua storageId untuk productCode tertentu
+  // Perhitungan
   function totalQuantityForProduct(productBin, productCode) {
       let totalQuantity = 0;
       productBin.data.forEach(item => {
@@ -46,7 +46,7 @@ let productBin = {
       return totalQuantity;
   }
   
-  // Contoh penggunaan
+  // Perhitungan
   const productCodeToCheck = "FBR00040101";
   const totalQuantity = totalQuantityForProduct(productBin, productCodeToCheck);
   console.log(`Total quantity for product code ${productCodeToCheck}: ${totalQuantity}`);
