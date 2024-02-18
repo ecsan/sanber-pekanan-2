@@ -11,7 +11,7 @@ function akarPangkatDua(x) {
     }
 }
 
-// Contoh penggunaan
+//Input Number
 const num1 = prompt('Enter a Number: ');
 const result = akarPangkatDua(num1);
 console.log(result);
