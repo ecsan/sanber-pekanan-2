@@ -1,0 +1,22 @@
+{
+  "name": "sanber-pekanan-2",
+  "version": "1.0.0",
+  "description": "tugas pekanan 2",
+  "main": "index.js",
+  "scripts": {
+    "test": "node intro.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ecsan/sanber-pekanan-2.git"
+  },
+  "author": "echsan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ecsan/sanber-pekanan-2/issues"
+  },
+  "homepage": "https://github.com/ecsan/sanber-pekanan-2#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
